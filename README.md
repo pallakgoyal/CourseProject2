@@ -4,3 +4,6 @@ Fine particulate matter (PM2.5) is an ambient air pollutant for which there is s
 For each year and for each type of PM source, the NEI records how many tons of PM2.5 were emitted from that source over the course of the entire year. The data that I will use for this assignment are for 1999, 2002, 2005, and 2008.
 
 plot_1.R and plot_1.png show the plot that answered the following question in the assignment.Have total emissions from PM2.5 decreased in the United States from 1999 to 2008? Using the base plotting system, make a plot showing the total PM2.5 emission from all sources for each of the years 1999, 2002, 2005, and 2008.
+
+plot_2.R and plot_2.png show the plot that answered the following question in the assignment. Have total emissions from PM2.5 decreased in the Baltimore City, Maryland (\color{red}{\verb|fips == "24510"|}fips == "24510") from 1999 to 2008? Use the base plotting system to make a plot answering this question.
+
