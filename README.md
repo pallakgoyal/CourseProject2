@@ -7,3 +7,5 @@ plot_1.R and plot_1.png show the plot that answered the following question in th
 
 plot_2.R and plot_2.png show the plot that answered the following question in the assignment. Have total emissions from PM2.5 decreased in the Baltimore City, Maryland (\color{red}{\verb|fips == "24510"|}fips == "24510") from 1999 to 2008? Use the base plotting system to make a plot answering this question. The total emissions for Baltimore City show a declining trend but they have climbed up in alternate years.
 
+plot_3.R and plot_3.png show the plot that answered the following question in the assignment. Of the four types of sources indicated by the \color{red}{\verb|type|}type (point, nonpoint, onroad, nonroad) variable, which of these four sources have seen decreases in emissions from 1999–2008 for Baltimore City? Which have seen increases in emissions from 1999–2008? Use the ggplot2 plotting system to make a plot answer this question.Non-Road, On-Road, and Non-Point sources have shown a consisten decline but the point sources have a shown an increase between 1999-2005 and a decline in 2008 to reach 1999 levels.
+
