@@ -10,6 +10,6 @@ names(df3) <- c("Year", "Source", "Emissions")
 ##create plot
 library(ggplot2)
 png("./plot_3.png")
-qplot(x=Year,y=Emissions, data = df3, facets = .~ Source, 
+qplot(x=Year,y=Emissions, data = df3, color = Source,
       geom = c("point", "line"))  + theme_bw()
 dev.off()
