@@ -13,4 +13,4 @@ plot_4.R and plot_4.png show the plot that answered the following question in th
 
 plot_5.R and plot_5.png show the plot that answered the following question in the assignment.How have emissions from motor vehicle sources changed from 1999–2008 in Baltimore City? The emissions show a declining trend.
 
-plot_6.R and plot_6.png show the plot that answered the following question in the assignment.Compare emissions from motor vehicle sources in Baltimore City with emissions from motor vehicle sources in Los Angeles County, California (\color{red}{\verb|fips == "06037"|}fips == "06037"). Which city has seen greater changes over time in motor vehicle emissions?The plot shows a declining trend.
+plot_6.R and plot_6.png show the plot that answered the following question in the assignment.Compare emissions from motor vehicle sources in Baltimore City with emissions from motor vehicle sources in Los Angeles County, California (fips == "06037"). Which city has seen greater changes over time in motor vehicle emissions?The plot shows a declining trend.
