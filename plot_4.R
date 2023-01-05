@@ -2,9 +2,9 @@
 NEI <- readRDS("./summarySCC_PM25.rds")
 SCC <- readRDS("./Source_Classification_Code.rds")
 ##subesetting NEI data by coal 
-coalrows <- grep("Coal", SCC$SCC.Level.Three)
-coalSCC <- SCC[coalrows, ]$SCC
-NEIcoal <- NEI[NEI$SCC == coalSCC, ]
+coalrows <- grep("coal", SCC$Short.Name, ignore.case=TRUE)
+coalSCC <- SCC[coalrows, ]
+NEIcoal <- merge(NEI, coalSCC, by = "SCC")
 ##create df
 df4 <- aggregate(NEIcoal$Emissions, by = list(Category = NEIcoal$year), 
                  FUN = sum)
